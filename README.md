@@ -14,7 +14,7 @@ The CPU tracker specifically requires OpenCV 4.x
 ```
 pip install "opencv-python<5" 
 ```
-Download the official [YOLOv4 weights file](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights)
+Download the official [YOLOv4 weights file](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) &emsp; (Download will start immediately)
 
 ## 📂 Project Structure
 ObjectDetectionProject/     <br>
