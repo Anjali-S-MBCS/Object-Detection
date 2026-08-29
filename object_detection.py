@@ -14,7 +14,7 @@ class ObjectDetection:
 
         # Using CPU
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
-        net.setPreferableTarget(cv2.dnn.DNN_TARGET_OPENCL)
+        net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
         self.model = cv2.dnn_DetectionModel(net)
 
