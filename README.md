@@ -1,4 +1,4 @@
-# Object Detection using OpenCV and Python
+# 📦 Object Detection using OpenCV and Python
 
 A versatile object detection & tracking application built with Python; allowing users to run a lightweight, CPU-based tracker using OpenCV's DNN module and YOLOv4.
 
