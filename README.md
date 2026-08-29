@@ -1,6 +1,6 @@
-# Object Tracker using OpenCV and Python
+# Object Detection using OpenCV and Python
 
-A versatile object tracking application built with Python. This allows users to run a lightweight, CPU-based tracker using OpenCV's DNN module and YOLOv4.
+A versatile object detection & tracking application built with Python; allowing users to run a lightweight, CPU-based tracker using OpenCV's DNN module and YOLOv4.
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ A versatile object tracking application built with Python. This allows users to 
 ### 🅰️ CPU Setup (OpenCV & YOLOv4)
 The CPU tracker specifically requires OpenCV 4.x
 ```
-pip install "opencv-python<5" numpy
+pip install "opencv-python<5" 
 ```
 Download the official [YOLOv4 weights file](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights)
 
@@ -20,7 +20,7 @@ Download the official [YOLOv4 weights file](https://github.com/AlexeyAB/darknet/
 ObjectDetectionProject/     <br>
 ├── main.py         <br>
 ├── object_detection.py      &emsp;&emsp;&emsp; # CPU YOLOv4 Logic        <br>
-└── dnn_model/               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; # Required for CPU only   <br>
+└── dnn_model/               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   <br>
 &emsp; ├── classes.txt       <br>
 &emsp; ├── yolov4.cfg        <br>
 &emsp; └── yolov4.weights    <br>   
