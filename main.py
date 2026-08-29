@@ -1,10 +1,8 @@
 import cv2
-import numpy as np
 from object_detection import ObjectDetection
 import math
 
 od = ObjectDetection()
-
 cap = cv2.VideoCapture("video.mp4")
 
 count = 0
