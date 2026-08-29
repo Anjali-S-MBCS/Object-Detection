@@ -42,7 +42,6 @@ while True:
                     tracking_objects[track_id] = pt
                     track_id += 1
     else:
-
         tracking_objects_copy = tracking_objects.copy()
         center_points_cur_frame_copy = center_points_cur_frame.copy()
 
@@ -86,7 +85,7 @@ while True:
     center_points_prev_frame = center_points_cur_frame.copy()
 
     key = cv2.waitKey(1)
-    if key == 27:
+    if key == ord('q'):
         break
 
 cap.release()
